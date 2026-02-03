@@ -1,5 +1,7 @@
 /* Created by Madusha Maha Gamage */
 /* Q1. well-known text for the street ‘Atlantic Commons’ in the street table */
+/* This is a set of PostGIS spatial SQL queries (PostgreSQL + PostGIS) using NYC datasets. 
+It demonstrates common GIS database tasks: geometry export, point-in-polygon, distance, spatial joins, buffering, and overlay length calculations. */
 SELECT ST_AsEWKT(geom)
 FROM nyc_streets
 WHERE name = 'Atlantic Commons';
