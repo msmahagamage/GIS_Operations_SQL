@@ -1,6 +1,8 @@
 /* Assignmnet 7
 # Madusha Sammani
 # November 7, 2024 */
+/*This file is about using PostGIS to perform neighborhood-level spatial analysis in NYC: 
+area/perimeter measurements, spatial joins for counting points (subway stations, homicides), population aggregation, and density calculations. */
 CREATE EXTENSION postgis;
 /* Question 1 */
 SELECT 
